@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransfer", "FileTransfe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{A765581A-638D-47F3-95A8-759141035B25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitProject", "TestUnitProject\TestUnitProject.csproj", "{465EC442-69A2-4DCC-ADAF-77621E5D3475}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{A765581A-638D-47F3-95A8-759141035B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A765581A-638D-47F3-95A8-759141035B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A765581A-638D-47F3-95A8-759141035B25}.Release|Any CPU.Build.0 = Release|Any CPU
-		{465EC442-69A2-4DCC-ADAF-77621E5D3475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{465EC442-69A2-4DCC-ADAF-77621E5D3475}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{465EC442-69A2-4DCC-ADAF-77621E5D3475}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{465EC442-69A2-4DCC-ADAF-77621E5D3475}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

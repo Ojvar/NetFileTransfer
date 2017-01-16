@@ -38,19 +38,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helper\Logger\Logger.cs" />
-    <Compile Include="Helper\Network\Command\BaseCommand.cs" />
-    <Compile Include="Helper\Network\Command\EnumCommandType.cs" />
-    <Compile Include="Helper\Network\Command\SendFileCommand.cs" />
-    <Compile Include="Helper\Network\Command\SendMessageCommand.cs" />
-    <Compile Include="Helper\Network\Core\Client.cs" />
-    <Compile Include="Helper\Network\Core\Server.cs" />
-    <Compile Include="Helper\Network\Model\NetPacket.cs" />
+    <Compile Include="Helper\Network\AsyncState.cs" />
+    <Compile Include="Helper\Network\Constants.cs" />
+    <Compile Include="Helper\Network\FileClient.cs" />
+    <Compile Include="Helper\Network\FileServer.cs" />
+    <Compile Include="Helper\Network\FileServerClient.cs" />
+    <Compile Include="Helper\Network\NetPacket.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Helper\Network\Wrapper\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

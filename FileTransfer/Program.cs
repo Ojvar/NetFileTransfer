@@ -1,7 +1,4 @@
-﻿using Common.Helper.Network.Command;
-using Common.Helper.Network.Core;
-using Common.Helper.Network.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +16,7 @@ namespace FileTransfer
 		{
 			Application.EnableVisualStyles ();
 			Application.SetCompatibleTextRenderingDefault (false);
-			Application.Run (new Form1 ());
+			Application.Run (new ServerClientForm ());
 		}
 	}
 }
